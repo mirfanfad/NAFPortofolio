@@ -11,11 +11,16 @@ const syne = Inter({
 
 export const metadata: Metadata = {
     metadataBase: new URL("https://www.example.com/"),
-    title: "Portfolio template - Eldora UI",
+    title: "NAFPortofolio - Eldora UI",
     description:
-        "Eldora UI is a portfolio template built with React, Typescript, Tailwind CSS, and Framer Motion. 100% open-source, and customizable.",
+        "Eldora UI is a template built with React, Typescript, Tailwind CSS, and Framer Motion. 100% open-source, and customizable.",
     generator: "Next.js",
-    applicationName: "Portfolio template",
+    applicationName: "NAFPortofolio",
+    icons: {
+        icon: "/logo.ico",
+        shortcut: "/logo.ico",
+        apple: "/logo.ico",
+    },
     keywords: [
         "Portfolio template",
         "Eldora UI",
@@ -41,17 +46,17 @@ export const metadata: Metadata = {
     ],
     colorScheme: "dark",
     openGraph: {
-        title: "Portfolio template - Eldora UI",
+        title: "NAFPortofolio - Eldora UI",
         description:
-            "Eldora UI is a portfolio template built with React, Typescript, Tailwind CSS, and Framer Motion. 100% open-source, and customizable.",
+            "Eldora UI is a NAFPortofolio built with React, Typescript, Tailwind CSS, and Framer Motion. 100% open-source, and customizable.",
         url: "https://www.eldoraui.site/",
         siteName: "www.eldoraui.site",
         images: [
             {
-                url: "./public/metadata.jpg",
+                url: "./public/logo.svg",
                 width: 1200,
                 height: 630,
-                alt: "Portfolio template - Eldora UI",
+                alt: "NAFPortofolio - Eldora UI",
             },
         ],
         locale: "en-US",
@@ -64,7 +69,7 @@ export const metadata: Metadata = {
             "Portfolio template - Eldora UI is a portfolio template built with React, Typescript, Tailwind CSS, and Framer Motion. 100% open-source, and customizable.",
         creator: "@mirfanfad",
         creatorId: "0000000000",
-        images: ["./public/metadata.jpg"],
+        images: ["./public/logo.svg"],
     },
     robots: {
         index: true,
